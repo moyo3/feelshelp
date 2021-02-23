@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-custom">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Feels</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="/Users/davidwilensky/Documents/learnya/Home/code/Home.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Users/davidwilensky/Documents/learnya/About/code/about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/Users/davidwilensky/Documents/learnya/comingsoon/code/soon.html">Emojis</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Feelings
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="/Users/davidwilensky/Documents/learnya/comingsoon/code/soon.html">Add A Feeling</a></li>
+                <li><a class="dropdown-item" href="/Users/davidwilensky/Documents/learnya/comingsoon/code/soon.html">Feelings List</a></li>
+              </ul>
+            </li>
+            
+          </ul>
+          
+            
+            
+            
+            <input type="text" class="form-control me-2" method="get" id="search" placeholder="Search" value="">
+                  <input type='submit' class="btn btn-outline-success" onclick="sendToPage();" />
+          
+        </div>
+      </div>
+    </nav>
+    <h1>Exited</h1>
+    <br>
+    <br>
+    <h3 id="Thing1">Do The Thing That Your Exited About</h3>
+
+    <style>
+      .navbar-custom {
+    background-color:#ced0d7af;
+}
+
+        body {
+            background: rgb(7,55,99);
+        background: linear-gradient(180deg, rgba(7,55,99,1) 0%, rgba(70,83,94,1) 50%, rgba(115,115,115,1) 100%);
+        height: 100%;
+            margin: 0;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            text-align: center;
+    color: #b7b7b7ff;
+        }
+        
+        
+        html {
+            height: 100%;
+        }
+        
+        #Thing1 {
+       width: auto;
+       height: auto;
+       border-color: black;
+       border-style: solid;
+       margin: 100px 370px;
+       color: #b7b7b7ff;
+       border-color: #b7b7b7ff;
+     }
+     #Thing2 {
+      width: auto;
+       height: auto;
+       border-color: black;
+       border-style: solid;
+       margin: 102px 370px;
+       color: #b7b7b7ff;
+       border-color: #b7b7b7ff;
+     }
+     #Thing3 {
+      width: auto;
+       height: auto;
+       border-color: black;
+       border-style: solid;
+       margin: 104px 370px;
+       color: #b7b7b7ff;
+       border-color: #b7b7b7ff;
+     }
+     #Thing4 {
+      width: auto;
+       height: auto;
+       border-color: black;
+       border-style: solid;
+       margin: 106px 370px;
+       color: #b7b7b7ff;
+       border-color: #b7b7b7ff;
+     }
+           </style>
+           <script type="text/javascript">
+
+
+            function sendToPage(){
+                var input = document.getElementById("search").value;
+                 //alert(input);
+                 //no caps
+                if (input == "happy"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/Happy.html";
+                    return false;
+                }
+                else if (input == "angry"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/Angry.html";
+                    return false;
+                }
+                else if (input == "content"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/content.html";
+                    return false;
+                    
+                }
+                else if (input == "afraid"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/afraid.html";
+                    return false;
+                    
+                }
+                else if (input == "anoyed"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/anoyed.html";
+                    return false;
+                    
+                }
+                else if (input == "anxious"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/anxious.html";
+                    return false;
+                    
+                }
+                else if (input == "bored"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/bored.html";
+                    return false;
+                    
+                }
+                else if (input == "bullied"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/bulied.html";
+                    return false;
+                    
+                }
+                else if (input == "calm"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/calm.html";
+                    return false;
+                    
+                }
+                else if (input == "depresed"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/depresed.html";
+                    return false;
+                    
+                }
+                else if (input == "energetic"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/energetic.html";
+                    return false;
+                    
+                }
+                else if (input == "excited"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/exited.html";
+                    return false;
+                    
+                }
+                else if (input == "interested"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/interested.html";
+                    return false;
+                    
+                }
+                else if (input == "mad"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/mad.html";
+                    return false;
+                    
+                }
+                else if (input == "paronoyed"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/paronoyed.html";
+                    return false;
+                    
+                }
+                else if (input == "sad"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/sad.html";
+                    return false;
+                    
+                }
+                else if (input == "tired"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/tired.html";
+                    return false;
+                    
+                }
+                else if (input == "upset"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/upset.html";
+                    return false;
+                    
+                }
+                // upercase let
+                else if (input == "Happy"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/Happy.html";
+                    return false;
+                }
+                else if (input == "Angry"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/Angry.html";
+                    return false;
+                }
+                else if (input == "Content"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/content.html";
+                    return false;
+                    
+                }
+                else if (input == "Afraid"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/afraid.html";
+                    return false;
+                    
+                }
+                else if (input == "Anoyed"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/anoyed.html";
+                    return false;
+                    
+                }
+                else if (input == "Anxious"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/anxious.html";
+                    return false;
+                    
+                }
+                else if (input == "Bored"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/bored.html";
+                    return false;
+                    
+                }
+                else if (input == "Bullied"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/bulied.html";
+                    return false;
+                    
+                }
+                else if (input == "Calm"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/calm.html";
+                    return false;
+                    
+                }
+                else if (input == "Depresed"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/depresed.html";
+                    return false;
+                    
+                }
+                else if (input == "Energetic"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/energetic.html";
+                    return false;
+                    
+                }
+                else if (input == "Excited"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/exited.html";
+                    return false;
+                    
+                }
+                else if (input == "Interested"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/interested.html";
+                    return false;
+                    
+                }
+                else if (input == "Mad"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/mad.html";
+                    return false;
+                    
+                }
+                else if (input == "Paronoyed"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/paronoyed.html";
+                    return false;
+                    
+                }
+                else if (input == "Sad"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/sad.html";
+                    return false;
+                    
+                }
+                else if (input == "Tired"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/tired.html";
+                    return false;
+                    
+                }
+                else if (input == "Upset"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Feelings/upset.html";
+                    return false;
+                    
+                }
+                else {
+                    alert('This Feeling Is Not Valid');
+                }
+                    }
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>

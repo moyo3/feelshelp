@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TEST</title>
+        <script type="text/javascript">
+
+
+            function sendToPage(){
+                var input = document.getElementById("search").value;
+                 //alert(input);
+                if (input == "happy"){
+                    location.href = "/Users/davidwilensky/Documents/learnya/Home/Feelings/Happy.html";
+                    return false;
+                }
+                else if (input == "angry"){
+                    location.href = "...";
+                    return false;
+                }
+                else if (input == "content"){
+                    location.href = "...";
+                    return false;
+                }
+                else {
+                    alert('This Feeling Is Not Valid');
+                }
+                    }
+        </script>
+    </head>
+    <body>
+        
+       
+                <input type="text" method="put" id="search" placeholder="Search" value="">
+                <input type='submit' onclick="sendToPage();" />
+        
+        
+    </body>
+</html>
+
